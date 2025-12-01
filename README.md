@@ -1,1 +1,4 @@
 # time-series-LLM-based-hospital-bed-forecasting-system
+
+
+The most challenging problem I solved recently was developing this hybrid Time-Series + LLM forecasting system. Traditional models failed whenever real-world conditions changed suddenly like seasonal outbreaks or festival surges—making predictions unreliable. To fix this, I built an XGBoost + LightGBM ensemble to produce a stable baseline forecast. The next challenge was integrating an LLM layer that analyzes external signals (news, outbreak data, seasonal patterns) and adjusts predictions intelligently. Combining numerical forecasts with natural-language insights required multiple iterations, prompt debugging, and consistent validation. The final system generated far more accurate and context-aware forecasts, improving real-world usability for hospital capacity planning.
